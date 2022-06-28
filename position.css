@@ -1,0 +1,13 @@
+.flex-container{ display:flex; 
+    background-color: rgb(158, 109, 204);}
+
+
+.flex-container div{background-color: rgb(241, 26, 159);
+     margin: 5px;
+     color:rgb(3, 42, 65);
+     width: 100%;}
+
+     
+     @media( max-width:300px) {.flex-container{flex-direction:column;} 
+     .flex-container div{ flex-basis: 100%;} 
+   }    
